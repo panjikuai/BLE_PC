@@ -1,0 +1,1 @@
+D:\rt_workspace\PC_Software\Windows-universal-samples-master\Samples\BluetoothLE\cs\BluetoothLE.csproj;x86
