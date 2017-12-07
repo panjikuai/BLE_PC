@@ -1,0 +1,2 @@
+MainPackage=D:\rt_workspace\PC_Software\Windows-universal-samples-master\Samples\BluetoothLE\cs\bin\ARM\Debug\BluetoothLE_1.0.0.0_ARM_Debug.appx
+SymbolPackage=D:\rt_workspace\PC_Software\Windows-universal-samples-master\Samples\BluetoothLE\cs\AppPackages\BluetoothLE_1.0.0.0_Debug_Test\BluetoothLE_1.0.0.0_ARM_Debug.appxsym

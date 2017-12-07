@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>a2214a83-6d31-41dd-b75f-0b8e56be182d</PackageIdentityName>
     <PackageIdentityPublisher>CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\rt_workspace\PC_Software\Windows-universal-samples-master\Samples\BluetoothLE\cs\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\rt_workspace\pc_software\BLE_PC\Samples\BluetoothLE\cs\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\rt_workspace\PC_Software\Windows-universal-samples-master\Samples\BluetoothLE\cs\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>4B3CB75F2D8D57E84C11188C0AC1FD37058BC471AA9DEB90CC3138AA31D01031</RegisteredManifestChecksum>
+    <LayoutDir>D:\rt_workspace\pc_software\BLE_PC\Samples\BluetoothLE\cs\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>D0E7DE2A14C7209E7D556B4E170C4F8D7D45242C6D9FC498B8E2A129E548908A</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>OMNI.BluetoothLE.CS_1.0.2.0_x64__8wekyb3d8bbwe</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>OMNI.BluetoothLE.CS_8wekyb3d8bbwe!BluetoothLE.App</RegisteredUserModeAppID>
     <RegisteredPackageID>OMNI.BluetoothLE.CS</RegisteredPackageID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\rt_workspace\PC_Software\Windows-universal-samples-master\Samples\BluetoothLE\cs\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\rt_workspace\pc_software\BLE_PC\Samples\BluetoothLE\cs\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-04T06:29:07.948</Modified>
+      <Modified>2017-12-07T09:37:16.153</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\rt_workspace\PC_Software\Windows-universal-samples-master\Samples\BluetoothLE\cs\bin\x64\Debug\BluetoothLEUniversal.exe">
+    <AppxPackagedFile Include="D:\rt_workspace\pc_software\BLE_PC\Samples\BluetoothLE\cs\bin\x64\Debug\BluetoothLEUniversal.exe">
       <PackagePath>entrypoint\BluetoothLEUniversal.exe</PackagePath>
-      <Modified>2017-12-04T06:29:06.443</Modified>
+      <Modified>2017-12-07T09:37:14.255</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jack\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.0.2\runtimes\win10-x64\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -695,120 +695,125 @@
       <PackagePath>netstandard.dll</PackagePath>
       <Modified>2017-11-10T07:41:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\rt_workspace\PC_Software\Windows-universal-samples-master\SharedContent\cs\Default.rd.xml">
+    <AppxPackagedFile Include="D:\rt_workspace\pc_software\BLE_PC\SharedContent\cs\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2017-10-26T00:00:04.000</Modified>
+      <Modified>2017-12-07T03:29:01.080</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\rt_workspace\PC_Software\Windows-universal-samples-master\SharedContent\media\microsoft-sdk.png">
+    <AppxPackagedFile Include="D:\rt_workspace\pc_software\BLE_PC\SharedContent\media\microsoft-sdk.png">
       <PackagePath>Assets\microsoft-sdk.png</PackagePath>
-      <Modified>2017-10-26T00:00:04.000</Modified>
+      <Modified>2017-12-07T03:29:01.401</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\rt_workspace\PC_Software\Windows-universal-samples-master\SharedContent\media\smalltile-sdk.png">
+    <AppxPackagedFile Include="D:\rt_workspace\pc_software\BLE_PC\SharedContent\media\smalltile-sdk.png">
       <PackagePath>Assets\smallTile-sdk.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-10-26T00:00:04.000</Modified>
+      <Modified>2017-12-07T03:29:01.405</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\rt_workspace\PC_Software\Windows-universal-samples-master\SharedContent\media\splash-sdk.png">
+    <AppxPackagedFile Include="D:\rt_workspace\pc_software\BLE_PC\SharedContent\media\splash-sdk.png">
       <PackagePath>Assets\splash-sdk.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-04T03:25:40.511</Modified>
+      <Modified>2017-12-07T06:40:12.114</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\rt_workspace\PC_Software\Windows-universal-samples-master\SharedContent\media\squaretile-sdk.png">
+    <AppxPackagedFile Include="D:\rt_workspace\pc_software\BLE_PC\SharedContent\media\squaretile-sdk.png">
       <PackagePath>Assets\squareTile-sdk.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-10-26T00:00:04.000</Modified>
+      <Modified>2017-12-07T03:29:01.410</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\rt_workspace\PC_Software\Windows-universal-samples-master\SharedContent\media\storelogo-sdk.png">
+    <AppxPackagedFile Include="D:\rt_workspace\pc_software\BLE_PC\SharedContent\media\storelogo-sdk.png">
       <PackagePath>Assets\storeLogo-sdk.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-10-26T00:00:04.000</Modified>
+      <Modified>2017-12-07T03:29:01.411</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\rt_workspace\PC_Software\Windows-universal-samples-master\SharedContent\media\tile-sdk.png">
+    <AppxPackagedFile Include="D:\rt_workspace\pc_software\BLE_PC\SharedContent\media\tile-sdk.png">
       <PackagePath>Assets\tile-sdk.png</PackagePath>
-      <Modified>2017-10-26T00:00:04.000</Modified>
+      <Modified>2017-12-07T03:29:01.412</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\rt_workspace\PC_Software\Windows-universal-samples-master\SharedContent\media\windows-sdk.png">
+    <AppxPackagedFile Include="D:\rt_workspace\pc_software\BLE_PC\SharedContent\media\windows-sdk.png">
       <PackagePath>Assets\windows-sdk.png</PackagePath>
-      <Modified>2017-10-26T00:00:04.000</Modified>
+      <Modified>2017-12-07T03:29:01.413</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\rt_workspace\PC_Software\Windows-universal-samples-master\Samples\BluetoothLE\cs\bin\x64\Debug\BluetoothLEUniversal.xr.xml">
+    <AppxPackagedFile Include="D:\rt_workspace\pc_software\BLE_PC\Samples\BluetoothLE\cs\Assets\splash-sdk.scale-200.png">
+      <PackagePath>Assets\splash-sdk.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-12-07T06:40:12.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\rt_workspace\pc_software\BLE_PC\Samples\BluetoothLE\cs\bin\x64\Debug\BluetoothLEUniversal.xr.xml">
       <PackagePath>BluetoothLEUniversal.xr.xml</PackagePath>
-      <Modified>2017-12-04T05:53:03.877</Modified>
+      <Modified>2017-12-07T09:37:13.557</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-09-28T09:28:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\rt_workspace\PC_Software\Windows-universal-samples-master\Samples\BluetoothLE\cs\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\rt_workspace\pc_software\BLE_PC\Samples\BluetoothLE\cs\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-04T06:29:07.446</Modified>
+      <Modified>2017-12-07T09:37:15.464</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\rt_workspace\PC_Software\Windows-universal-samples-master\Samples\BluetoothLE\cs\bin\x64\Debug\Core\BluetoothLEUniversal.exe">
+    <AppxPackagedFile Include="D:\rt_workspace\pc_software\BLE_PC\Samples\BluetoothLE\cs\bin\x64\Debug\Core\BluetoothLEUniversal.exe">
       <PackagePath>BluetoothLEUniversal.exe</PackagePath>
-      <Modified>2017-12-04T06:29:07.937</Modified>
+      <Modified>2017-12-07T09:37:16.137</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Users\Jack\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.1.1\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.1.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackagesFallback\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.1.1\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.1.appx">
       <Name>Microsoft.NET.CoreRuntime.2.1</Name>
       <Version>2.1.25801.2</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.1, MinVersion = 2.1.25801.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Jack\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.1.1\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.1.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackagesFallback\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.1.1\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.1.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Jack\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.1.1\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.1.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackagesFallback\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.1.1\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.1.appx">
       <Name>Microsoft.NET.CoreRuntime.2.1</Name>
       <Version>2.1.25801.2</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.1, MinVersion = 2.1.25801.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Jack\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.1.1\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.1.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackagesFallback\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.1.1\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.1.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Jack\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.1.1\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.1.appx">
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackagesFallback\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.1.1\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.1.appx">
       <Name>Microsoft.NET.CoreRuntime.2.1</Name>
       <Version>2.1.25801.2</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.1, MinVersion = 2.1.25801.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Jack\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.1.1\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.1.appx</AppxLocation>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackagesFallback\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.1.1\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.1.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.25547.0</Version>
+      <Version>14.0.25830.2</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25547.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25830.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.25547.0</Version>
+      <Version>14.0.25830.2</Version>
       <Architecture>ARM64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25547.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25830.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.25547.0</Version>
+      <Version>14.0.25830.2</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25547.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25830.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.25547.0</Version>
+      <Version>14.0.25830.2</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25547.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.25830.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>

@@ -38,32 +38,42 @@
             </Grid>
         </DataTemplate>
     </Page.Resources>
-    <ScrollViewer Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Padding="12,10,12,12">
-        <StackPanel KeyDown="StackPanel_KeyDown">
-            <TextBlock Style="{StaticResource ListItemTextStyle}" TextWrapping="Wrap" Margin="0,10,0,0">
-                Selected Device To Connect: <Run Text="{x:Bind rootPage.SelectedBleDeviceName}" FontWeight="Bold"/>
-            </TextBlock>
-            <Button x:Name="ConnectButton" Content="Connect" Click="{x:Bind ConnectButton_Click}" Margin="0,10,0,0"/>
-            <ComboBox x:Name="ServiceList" Margin="0,10,0,0" PlaceholderText="Choose a service" Visibility="Visible"
-                      ItemsSource="{x:Bind ServiceCollection}" DisplayMemberPath="Name"
-                      SelectionChanged="{x:Bind ServiceList_SelectionChanged}"/>
-            <ComboBox x:Name="CharacteristicList" Margin="0,10,0,0" PlaceholderText="Choose a characteristic" Visibility="Visible"
-                      ItemsSource="{x:Bind CharacteristicCollection}"  DisplayMemberPath="Name"
-                      SelectionChanged="{x:Bind CharacteristicList_SelectionChanged}" />
-            <StackPanel Orientation="Horizontal">
-                <Button x:Name="CharacteristicReadButton" Content="Read Value" Click="{x:Bind CharacteristicReadButton_Click}"
-                        Visibility="Visible" Margin="0,10,10,0"/>
-                <Button x:Name="ValueChangedSubscribeToggle" Content="Subscribe to value changes" Click="{x:Bind ValueChangedSubscribeToggle_Click}"
-                        Visibility="Visible" Margin="0,10,10,0"/>
+    <ScrollViewer Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Padding="12,10,12,12" FontSize="9">
+        <StackPanel KeyDown="StackPanel_KeyDown" Orientation="Vertical">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" >
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch" >
+                    <TextBlock Style="{StaticResource ListItemTextStyle}" TextWrapping="Wrap" Margin="0,10,0,0" FontSize="15">
+                        Selected Device To Connect: <Run Text="{x:Bind rootPage.SelectedBleDeviceName}" FontWeight="Bold"/>
+                    </TextBlock>
+                    <Button x:Name="ConnectButton" Content="Connect" Click="{x:Bind ConnectButton_Click}" Margin="0,10,0,0" FontSize="13"/>
+                    <ComboBox x:Name="ServiceList" Margin="0,10,0,0" PlaceholderText="Choose a service" Visibility="Visible"
+                              ItemsSource="{x:Bind ServiceCollection}" DisplayMemberPath="Name"
+                              SelectionChanged="{x:Bind ServiceList_SelectionChanged}" FontSize="13"/>
+                    <ComboBox x:Name="CharacteristicList" Margin="0,10,0,0" PlaceholderText="Choose a characteristic" Visibility="Visible"
+                              ItemsSource="{x:Bind CharacteristicCollection}"  DisplayMemberPath="Name"
+                              SelectionChanged="{x:Bind CharacteristicList_SelectionChanged}" FontSize="13" />
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="CharacteristicReadButton" Content="Read Value" Click="{x:Bind CharacteristicReadButton_Click}"
+                                Visibility="Visible" Margin="0,10,10,0" VerticalAlignment="Top" FontSize="13"/>
+                        <Button x:Name="ValueChangedSubscribeToggle" Content="Subscribe to value changes" Click="{x:Bind ValueChangedSubscribeToggle_Click}"
+                                Visibility="Visible" Margin="0,10,10,0" VerticalAlignment="Top" FontSize="13"/>
+                    </StackPanel>
+                    <StackPanel x:Name="CharacteristicWritePanel" Margin="0,10,0,0" Visibility="Visible">
+                        <TextBox x:Name="CharacteristicWriteValue" PlaceholderText="Enter text/number to send" Width="302" HorizontalAlignment="Left" FontSize="13"/>
+                        <Button Content="Write Value as Number" Click="{x:Bind CharacteristicWriteButtonInt_Click}" Margin="0,10,0,0" FontSize="13"/>
+                        <Button Content="Write Value as UTF-8" Click="{x:Bind CharacteristicWriteButton_Click}" Margin="0,10,0,0" FontSize="13"/>
+                    </StackPanel>
+                    <TextBlock x:Name="CharacteristicLatestValue" Margin="0,10,0,0"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" Width="1162" >
+                    <Image HorizontalAlignment="Stretch" Height="336" Margin="0,0,0,0" Width="178" VerticalAlignment="Stretch" Source="Assets/microsoft-sdk.png"/>
+                    <CheckBox Content="CheckBox" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="100,0,-123,0" Height="336"/>
+
+
+                </StackPanel>
             </StackPanel>
-            <StackPanel x:Name="CharacteristicWritePanel" Margin="0,10,0,0" Visibility="Visible">
-                <TextBox x:Name="CharacteristicWriteValue" PlaceholderText="Enter text/number to send"/>
-                <Button Content="Write Value as Number" Click="{x:Bind CharacteristicWriteButtonInt_Click}" Margin="0,10,0,0"/>
-                <Button Content="Write Value as UTF-8" Click="{x:Bind CharacteristicWriteButton_Click}" Margin="0,10,0,0"/>
-            </StackPanel>
-            <TextBlock x:Name="CharacteristicLatestValue" Margin="0,10,0,0"/>
-            <TextBlock x:Name="CharacteristicLatestValue_Copy" Margin="0,10,0,0" Height="40" Text="Please input Keys" FontSize="20" FontStretch="UltraCondensed" HorizontalAlignment="Stretch" FontWeight="Bold" KeyDown="CharacteristicLatestValue_Copy_KeyDown"/>
-            <TextBox Text="" KeyDown="TextBox_KeyDown" KeyUp="TextBox_KeyUp"/>
+            <TextBlock x:Name="CharacteristicLatestValue_Copy" Margin="0,10,0,0" Height="40" Text="Please input Keys" FontSize="16" FontStretch="UltraCondensed" HorizontalAlignment="Stretch" FontWeight="Bold" KeyDown="CharacteristicLatestValue_Copy_KeyDown"/>
+            <TextBox Text="" KeyDown="TextBox_KeyDown" KeyUp="TextBox_KeyUp" FocusVisualMargin="-3,0,0,0" FontSize="13"/>
         </StackPanel>
     </ScrollViewer>
 </Page>

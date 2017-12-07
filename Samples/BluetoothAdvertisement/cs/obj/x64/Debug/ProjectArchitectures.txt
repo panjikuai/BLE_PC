@@ -1,0 +1,2 @@
+D:\rt_workspace\pc_software\BLE_PC\Samples\BluetoothAdvertisement\cs\bluetoothadvertisement.csproj;x64
+D:\rt_workspace\pc_software\BLE_PC\Samples\BluetoothAdvertisement\cs\Tasks\Tasks.csproj;x64
